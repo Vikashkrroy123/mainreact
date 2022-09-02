@@ -1,0 +1,56 @@
+:root{
+  --light:#ee9e3dfc;
+  --dark:#292921;
+}
+body{
+  background-color: var(--light);
+}
+img{
+  height:400px;
+  width:400px;
+  border-radius:50%;
+  border:5px solid red;
+  box-shadow: 8px 8px 8px black;
+  text-align: center;
+  animation-name: vikash;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes vikash {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+section{
+  margin:2rem;
+}
+a{
+  margin:1rem;
+}
+body,h1,h2,h3,h4,h5,h6,p,ul{
+  margin:0px;
+  color:white;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  font-weight: bold;
+}
+
+ a{
+  text-decoration: none;
+  color:rgb(0, 30, 128);
+  background-color: red;
+  border: 2px solid white;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.m{
+  background-color: red;
+}
+a:hover{
+  background-color: transparent;
+}

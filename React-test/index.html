@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modules!</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .a{
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 150px auto;
+            background-color: burlywood;
+            border: 5px solid yellow;
+            border-radius: 20px;
+            width: 500px;
+            box-shadow: 5px 5px 5px white;
+        }
+        button{
+            background-color: red;
+            border: 4px solid rgb(23, 204, 6);
+            border-radius: 10px;
+            color: rgb(255, 255, 255);
+            padding: 4px;
+            width: 150px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+
+        }
+        button:hover{
+background-color: transparent;
+        }
+    </style>
+    <script src="./index.js" type="module"></script>
+    <script src="./another.js" type="module"></script>
+    <script src="./main.js" type="module"></script>
+    <script src="./mul.js" type="module"></script>
+    <script src="./def.js" type="module"></script>
+    </head>
+<body>
+   <div class="a">
+    <button id="add">Add</button> 
+   <br>
+   <button id="minus">Minus</button>
+   <br>
+   <button id="multi">Multiply</button>
+   <br>
+   <button id="divide">Divide</button>
+   </div>
+</body>
+</html>
