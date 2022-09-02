@@ -12,6 +12,7 @@ function App() {
 <Contact />
 <Exp />
 <Skill/>
+<skill />
     </main>
   );
 }
